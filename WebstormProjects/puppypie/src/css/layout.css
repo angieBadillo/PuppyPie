@@ -1,0 +1,10 @@
+.b-main-header{
+    height : 70px;
+    background-color: honeydew;
+}
+
+.b-main-navigation{
+    float: right;
+    margin: 10px 0 0 20px;
+    padding: 5px 0 0 8px;
+}
