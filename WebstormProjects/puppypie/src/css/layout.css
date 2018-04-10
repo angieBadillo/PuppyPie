@@ -33,13 +33,13 @@
     color:darkorange;
     text-decoration: none;
 
- }
+}
 .b-logo{
     float:left;
-    margin: 10px 0 0 20px;
-    padding: 5px 0 0 20px;
+    margin: 11px 0 0 0px;
+    padding: 3px 0 0 10px;
     font-size: 26px;
-    border-radius: 50%;
+    border-radius: 50%; /*makes a circle*/
     width: 50px;
     height: 50px;
     border: 2px solid #f8feff;
