@@ -32,7 +32,6 @@
     background: #77c3ad;
     color:darkorange;
     text-decoration: none;
-
 }
 .b-logo{
     float:left;
@@ -51,3 +50,17 @@
     width: 30px;
     height: 40px;
 }
+.b-section{
+    overflow: hidden;
+    padding: 100px 0;
+}
+.b-section--Learn-puppies {
+    background-color: #f8f9fa;
+    border: 5px solid #f3959a;
+}
+
+.b-section--Learn-puppies-header{
+    color: #f3959a;
+}
+
+
