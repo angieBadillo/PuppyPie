@@ -1,0 +1,27 @@
+{
+  "name": "puppypie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angieBadillo/PuppyPie.git"
+  },
+  "author": "Angelica BAdillo <angie.badillo@icloud.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/angieBadillo/PuppyPie/issues"
+  },
+
+  "private": true,
+
+  "keywords":[
+    "puppy",
+    "puppy care"
+  ],
+
+  "homepage": "https://github.com/angieBadillo/PuppyPie#readme"
+}
