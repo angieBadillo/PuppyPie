@@ -4,24 +4,25 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo\"Error: no test especified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angieBadillo/PuppyPie.git"
+    "url": "clear"
   },
-  "author": "Angelica BAdillo <angie.badillo@icloud.com>",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/angieBadillo/PuppyPie/issues"
-  },
-
-  "private": true,
-
-  "keywords":[
-    "puppy",
-    "puppy care"
+  "keywords": [
+    "puppy love"
   ],
-
-  "homepage": "https://github.com/angieBadillo/PuppyPie#readme"
+  "author": "Angie Badillo <angie.badillo@icloud.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {}
 }
