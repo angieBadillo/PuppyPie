@@ -3,36 +3,42 @@
     background-color: $color-primary;
 }
 
-.b-main-navigation{
+.b-main-navigation {
     float: right;
+
+    &__items {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    &__item {
+        text-align: center;
+        display: inline-block;
+        float: left;
+    }
+
+    &__icon {
+        clear: both; /*clear float elements up and down*/
+        display: block;
+        margin: 5px;
+    }
+
+    &__link {
+        display: block;
+        color: $color-secondary;
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+
+    &__link:hover {
+        background: $color-primary;
+        color: darkorange;
+        text-decoration: none;
+    }
 }
 
-.b-main-navigation__items{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-.b-main-navigation__item{
-    text-align: center;
-    display: inline-block;
-    float: left;
-}
-.b-main-navigation__icon{
-    clear: both; /*clear float elements up and down*/
-    display: block;
-    margin: 5px;
-}
-.b-main-navigation__link{
-    display: block;
-    color: $color-secondary;
-    padding: 14px 20px;
-    font-size: 15px;
-}
-.b-main-navigation__link:hover{
-    background: $color-primary;
-    color:darkorange;
-    text-decoration: none;
-}
+
 .b-logo{
     float:left;
     margin: 11px 0 0 0px;
@@ -42,25 +48,30 @@
     width: 50px;
     height: 50px;
     border: 2px solid $color-secondary;
+
+
+    & a{
+        color:  $color-secondary;
+    }
+
+    &img{
+        width: 30px;
+        height: 40px;
+    }
 }
-.b-logo a{
-    color:  $color-secondary;
-}
-.b-logo img{
-    width: 30px;
-    height: 40px;
-}
+
 .b-section{
     overflow: hidden;
     padding: 100px 0;
-}
-.b-section--Learn-puppies {
-    background-color: $color-secondary;
-    border: 3px solid $color-primary-light;
-}
 
-.b-section--Learn-puppies-header{
-    color: $color-primary-light;
-}
 
+    &--Learn-puppies {
+        background-color: $color-secondary;
+        border: 3px solid $color-primary-light;
+    }
+
+    &--Learn-puppies-header{
+        color: $color-primary-light;
+    }
+}
 

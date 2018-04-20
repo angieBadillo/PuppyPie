@@ -4,6 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
+    "start" : "gulp build",
+    "watch": "live-server . && gulp-watch",
     "test": "echo\"Error: no test especified\" && exit 1"
   },
   "repository": {
